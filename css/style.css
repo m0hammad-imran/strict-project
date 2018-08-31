@@ -1,0 +1,425 @@
+
+
+body{
+
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.bg-dark {
+    background-color: #f1f1f1!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(45, 57, 80);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #15a4fa;
+}
+
+.bg-img{
+
+	background: url(../vendor/img/bgg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: 10px;
+    padding-bottom: 2%;
+}
+
+.line{
+	border-bottom: 2px solid #15a4fa;
+	width: 35%;
+	height: 5px;
+	display: block;
+	margin: 0 auto;
+}
+
+.heading p{
+	color: #fff;
+	padding-top: 3%;
+	font-weight: 400;
+}
+
+.heading h5:hover{
+color: #15a4fa;
+cursor: pointer;
+
+}
+
+.heading h5{
+	color: #fff;
+	border: 2px solid #15a4fa;
+	width: 14%;
+	display: block;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 4%;
+
+
+}
+
+.arrow{
+
+margin-top: 10%;
+
+}
+
+.arrow i{
+	color: #fff;
+	transition: 0.5s;
+}
+
+.arrow i:hover{
+	color: #15a4fa;
+	padding-top: 2%;
+}
+
+
+/*
+========================
+blog swction css
+=========================
+
+*/
+
+section#blog {
+    padding-top: 3%;
+    background-color: #f6f9f9;
+        height: 200px;
+}
+
+.simple-design p{
+
+	color: #999999;
+	font-size: 15px;
+}
+
+.simple-design h3{
+
+color: #acb1b7;
+
+}
+
+/*
+======================
+gallaery section css
+======================
+
+
+*/
+
+
+section#services {
+    padding-top: 4%;
+        padding-bottom: 4%;
+}
+.one img{
+	display: block;
+	margin: 0 auto;
+}
+
+.one h5{
+	color: #acb1b7;
+	font-size: 18px;
+	padding-top: 5%;
+}
+
+.one p{
+
+color: #999999;
+	font-size: 13px;
+
+}
+
+.one{
+	transition: 0.5s;
+}
+
+.one:hover{
+color: cyan;
+cursor: pointer;
+
+}
+
+
+/*
+========================
+gallery section css
+========================
+
+*/
+section#gallery {
+    padding-top: 0;
+    background-color: #f6f9f9;
+    padding-bottom: 5%;
+}
+
+.gallery-text h2{
+
+	color: #acb1b7;
+	padding-top: 5%;
+}
+
+.gallery-text p{
+
+	color: #999999;
+}
+
+.wrapper{
+
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+	margin-top: 3%;
+
+}
+
+.colum{
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+.colum .img-box{
+
+	position: relative;
+
+
+}
+
+.colum .img-box img{
+
+	position: relative;
+	max-width: 100%;
+	transition: 1s;
+}
+
+
+
+.colum .detail {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
+    background: #5fc3ff;
+    transform: scale(0);
+    visibility: hidden;
+    text-align: center;
+    transition: 1s;
+}
+
+.colum:hover .detail{
+transform: scale(1);
+    visibility: visible;
+
+}
+.colum .detail .contant{
+
+position: absolute;
+top: 42%;
+left: 6%;
+width: 100%;
+transform: translate(-5%, -20%);
+box-sizing: border-box;
+
+
+}
+
+.colum .detail .contant ul{
+	position: relative;
+	display: flex;
+	padding: 0;
+	width: 30%;
+	margin: 30px auto 0;
+	transition: 0.5s;
+	color: #fff;
+	transform: translateY(100px);
+	opacity: 0;
+	
+}
+
+.colum:hover .detail .contant ul{
+
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+
+
+
+.colum .detail .contant ul li{
+	list-style: none;
+	width: 40%;
+	text-align: center;
+}
+
+.colum .detail .contant ul li a{
+
+
+	color: #fbfbfb;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 29px;
+    width: 36px;
+    height: 36px;
+    position: absolute; 
+    margin: -6px 3px;
+
+
+}
+
+/*
+========================
+contact us section
+===========================
+
+*/
+section#contact {
+    padding-top: 5%;
+    background: url(../vendor/img/stay-with-us.png);
+    padding-bottom: 5%;
+}
+
+.Contact-head h3{
+	color: #fff;
+	font-size: 30px;
+    font-weight: 400;
+}
+
+.Contact-head p{
+	color: #ccc;
+	font-size: 12px;
+    font-weight: 300;
+}
+
+.email{
+	padding: 6px 13px;
+    margin-top: 5%;
+}
+.messege{
+
+	width: 100%;
+    height: 130px;
+    margin-top: 5%;
+    padding: 10px;
+}
+.button button{
+	background-color: transparent;
+    float: right;
+    width: 17%;
+    border: 1.5px solid #15a4fa;
+    color: #fff;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    height: 34px;
+}
+
+.button{
+	padding: 8px 0px;
+    color: #757575;
+    font-size: 13px
+}
+
+.button input{
+	margin-right:  8px
+}
+
+.button button:hover{
+
+	cursor: pointer;
+	color: #15a4fa;
+}
+
+
+/*
+===============
+social icon css
+==============
+
+*/
+
+section#social-icon {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.social img{
+
+	float: right;
+	padding: 0 10px;
+	transition: all 1.5s;
+	
+}
+
+.social img:hover{
+transform: rotate(360deg);
+cursor: pointer;
+}
+
+
+/*
+===================
+media query
+=================
+*/
+
+@media screen and (max-width:576px){
+
+.button button {
+  
+    float: left;
+    width: 58%;
+    
+    height: 28px;
+}
+
+.button {
+    padding: 3px 0px;
+}
+
+.social img {
+   
+    padding: 4px 16px;
+}
+
+.heading h5 {
+   
+    width: 23%;
+
+}
+
+.simple-design p {
+   
+    font-size: 13px;
+
+}
+
+.navbar-toggler {
+    
+    background-color: #2d3950;
+
+}
+
+}
